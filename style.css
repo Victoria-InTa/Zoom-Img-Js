@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    margin-top: 10em;
+    width: 300px;
+    transition: all 1s;
+}
+img{
+    width: 100%;
+}
+section.agrandar{
+    width: 500px;
+}
